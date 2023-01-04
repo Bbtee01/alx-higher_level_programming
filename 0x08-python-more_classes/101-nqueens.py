@@ -79,10 +79,13 @@ def xout(board, row, col):
             break
         board[r][c] = "x"
         c -= 1
+        
+        
 
 
 def recursive_solve(board, row, queens, solutions):
     """Recursively solve an N-queens puzzle.
+    
     Args:
         board (list): The current working chessboard.
         row (int): The current working row.
